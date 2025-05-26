@@ -6,3 +6,4 @@ image:
 replicaCount: 1
 containerPort: 80
 serviceType: ClusterIP
+namespace: test

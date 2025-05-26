@@ -4,6 +4,7 @@ metadata:
   name: {{ .Values.name }}-svc
   labels:
     app: {{ .Values.name }}
+  namespace: {{ .Values.namespace }}
 spec:
   selector:
     app: {{ .Values.name }}
