@@ -1,0 +1,5 @@
+name: helloworld
+image: hashicorp/http-echo:latest
+replicas: 3
+containerPort: 5678
+serviceType: LoadBalancer
