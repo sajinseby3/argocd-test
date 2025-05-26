@@ -1,5 +1,8 @@
-name: helloworld
-image: hashicorp/http-echo:latest
-replicas: 3
-containerPort: 5678
-serviceType: LoadBalancer
+name: hello-world
+image:
+  repository: nginx
+  tag: latest
+  pullPolicy: IfNotPresent
+replicaCount: 1
+containerPort: 80
+serviceType: ClusterIP
