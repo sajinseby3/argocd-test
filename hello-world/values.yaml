@@ -3,7 +3,7 @@ image:
   repository: nginx
   tag: latest
   pullPolicy: IfNotPresent
-replicaCount: 2
+replicaCount: 3
 containerPort: 80
 serviceType: ClusterIP
 namespace: test
